@@ -20,7 +20,7 @@ const promise = require('bluebird');
 const locationDialog = require('botbuilder-location');
 const path = require('path');
 
-const locale = 'en_US';
+const LOCALE = 'en_US';
 
 const USE_DEFAULT_PASSWORD = process.env.LIFERAY_USE_DEFAULT_PASSWORD || false;
 const DEFAULT_USERNAME = process.env.LIFERAY_USER;
