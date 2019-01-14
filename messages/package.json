@@ -2,18 +2,21 @@
   "name": "luisbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "../messages/index.js",
   "dependencies": {
+    "bluebird": "^3.5.2",
     "botbuilder": "^3.13.1",
     "botbuilder-azure": "^3.0.4",
-    "nodemon": "^1.17.2",
+    "botbuilder-location": "^2.0.0",
     "path": "^0.12.7",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
-    "request-to-curl": "^0.1.1"
+    "request-to-curl": "^0.1.1",
+    "winston": "^3.1.0"
   },
   "devDependencies": {
-    "restify": "^5.0.0"
+    "restify": "^5.0.0",
+    "nodemon": "^1.17.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
